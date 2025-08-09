@@ -8,7 +8,7 @@ Used reliably in production since 2022 at <https://feedbackfrog.io>
   <img src="./gandalf-vs-ferris.png" alt="The Go Gopher as Gandalf, facing down a fiery Rust-colored crab monster." height="450"/>
 </p>
 
-In the deepest forges of application development, where the fires of high traffic burn brightest, GANDALF stands as a formidable guardian. This rate limiting library for Go applications, forged with the power of **BadgerDB**, provides a simple yet powerful API to shield your services from overwhelming requests. Like a wizard's staff, it offers protection and control, ensuring that only the worthy may pass through your system's gates. It replaces the ancient and slower BoltDB for superior write performance, a true upgrade to your arsenal.
+In the deepest forges of application development, where the fires of high traffic burn brightest, GANDALF stands as a formidable guardian. This rate limiting library for Go applications, it provides a simple yet powerful API to shield your services from overwhelming requests. Like a wizard's staff, it offers protection and control, ensuring that only the worthy may pass through your system's gates. A true upgrade to your arsenal.
 
 ## Features
 
@@ -394,15 +394,6 @@ The rate limiter supports the following time units:
 - `month`: Resets every month
 
 ## Performance Characteristics
-
-### BadgerDB vs BoltDB
-
-Gandalf uses **BadgerDB** instead of BoltDB for significantly improved performance:
-
-- **10x+ faster writes** for high-throughput scenarios
-- **Better concurrent performance** for multiple keys
-- **Advanced transaction conflict resolution** with exponential backoff and jitter
-- **Optimized for SSD storage** with LSM tree structure
 
 ### Throughput Benchmarks
 
