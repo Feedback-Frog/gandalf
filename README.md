@@ -1,12 +1,12 @@
+<p align="center">
+  <img src="./gandalf-vs-ferris.png" alt="The Go Gopher as Gandalf, facing down a fiery Rust-colored crab monster." height="450"/>
+</p>
+
 # GANDALF: *G*olang *A*pplication *N*etwork *D*efense *A*nd *L*imit *F*ilter
 
 Used reliably in production since 2022 at <https://feedbackfrog.io>
 
 ## With GANDALF, You Shall Not Pass… the Rate Limit
-
-<p align="center">
-  <img src="./gandalf-vs-ferris.png" alt="The Go Gopher as Gandalf, facing down a fiery Rust-colored crab monster." height="450"/>
-</p>
 
 In the deepest forges of application development, where the fires of high traffic burn brightest, GANDALF stands as a formidable guardian. This rate limiting library for Go applications, it provides a simple yet powerful API to shield your services from overwhelming requests. Like a wizard's staff, it offers protection and control, ensuring that only the worthy may pass through your system's gates. A true upgrade to your arsenal.
 
