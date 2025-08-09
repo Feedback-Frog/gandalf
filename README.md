@@ -5,7 +5,7 @@ Used reliably in production since 2022 at <https://feedbackfrog.io>
 ## With GANDALF, You Shall Not Pass… the Rate Limit
 
 <p align="center">
-  <img src="./gandalf-vs-ferris.png" alt="The Go Gopher as Gandalf, facing down a fiery Rust-colored crab monster." height="350"/>
+  <img src="./gandalf-vs-ferris.png" alt="The Go Gopher as Gandalf, facing down a fiery Rust-colored crab monster." height="450"/>
 </p>
 
 In the deepest forges of application development, where the fires of high traffic burn brightest, GANDALF stands as a formidable guardian. This rate limiting library for Go applications, forged with the power of **BadgerDB**, provides a simple yet powerful API to shield your services from overwhelming requests. Like a wizard's staff, it offers protection and control, ensuring that only the worthy may pass through your system's gates. It replaces the ancient and slower BoltDB for superior write performance, a true upgrade to your arsenal.
@@ -457,47 +457,6 @@ fmt.Printf("Result: %v\n", result)
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Open Source Release Checklist
-
-### High Priority Tasks
-
-- [ ] **Update go.mod module path** - Change from internal path to public GitHub module (e.g., `github.com/feedback-frog/gandalf`)
-- [x] **Remove internal dependencies** - Audit all imports and ensure no references to internal packages or private repositories
-- [x] **Add LICENSE file** - Create proper MIT License file with copyright attribution
-- [x] **Dependency audit** - Review all third-party dependencies for licensing compatibility and security
-
-### Medium Priority Tasks
-
-- [ ] **Test coverage analysis** - Run `go test -cover ./...` and ensure >90% test coverage across all packages
-- [ ] **GitHub Actions CI/CD** - Set up automated testing pipeline for multiple Go versions (1.19, 1.20, 1.21+)
-- [ ] **CONTRIBUTING.md** - Create contributor guidelines including code style, PR process, and development setup
-- [ ] **Security policy** - Add SECURITY.md with vulnerability reporting guidelines and responsible disclosure process
-- [ ] **Documentation review** - Ensure all public APIs have comprehensive godoc comments
-- [ ] **Example validation** - Test all README examples work correctly with the open source version
-
-### Low Priority Tasks
-
-- [ ] **Performance benchmarks** - Create reproducible benchmark suite and document performance characteristics
-- [ ] **Code of conduct** - Add community guidelines and standards for inclusive participation
-- [ ] **Release automation** - Set up semantic versioning with automated releases via GitHub Actions
-- [ ] **Badge integration** - Add Go Report Card, GoDoc, license, and build status badges to README
-- [ ] **Cross-platform testing** - Ensure compatibility across Linux, macOS, and Windows
-- [ ] **Memory profiling** - Document memory usage patterns and provide optimization guidelines
-
-### Repository Setup Tasks
-
-- [ ] **Create public repository** - Set up new GitHub repository under appropriate organization
-- [ ] **Issue templates** - Create bug report and feature request templates
-- [ ] **Pull request template** - Standardize PR submissions with checklist
-- [ ] **GitHub Pages** - Consider setting up documentation site with examples and API reference
-
-### Community Building
-
-- [ ] **Announcement plan** - Coordinate release announcement across relevant Go communities
-- [ ] **Package discovery** - Submit to pkg.go.dev and relevant package indexes
-- [ ] **Blog post** - Write technical blog post about BadgerDB performance improvements and design decisions
-- [ ] **Conference proposal** - Consider presenting at Go conferences about high-performance rate limiting
 
 ## License
 
