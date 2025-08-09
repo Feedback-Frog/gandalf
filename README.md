@@ -4,6 +4,11 @@
 
 # GANDALF: *G*olang *A*pplication *N*etwork *D*efense *A*nd *L*imit *F*ilter
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/feedback-frog/gandalf.svg)](https://pkg.go.dev/github.com/feedback-frog/gandalf)
+[![Go Report Card](https://goreportcard.com/badge/github.com/feedback-frog/gandalf)](https://goreportcard.com/report/github.com/feedback-frog/gandalf)
+[![Coverage Status](https://coveralls.io/repos/github/Feedback-Frog/gandalf/badge.svg?branch=main)](https://coveralls.io/github/Feedback-Frog/gandalf?branch=main)
+[![CI](https://github.com/Feedback-Frog/gandalf/actions/workflows/ci.yml/badge.svg)](https://github.com/Feedback-Frog/gandalf/actions/workflows/ci.yml)
+
 Used reliably in production since 2022 at <https://feedbackfrog.io>
 
 ## With GANDALF, You Shall Not Pass… the Rate Limit
